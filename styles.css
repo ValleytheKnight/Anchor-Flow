@@ -1,1 +1,21 @@
-/* Scaffold only. No styling rules yet, gated on the risk test's result. */
+.anchor-flow-toolbar {
+	position: fixed;
+	z-index: var(--layer-popover);
+	display: flex;
+	align-items: center;
+	gap: var(--size-2-1);
+	padding: var(--size-2-2);
+	background-color: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	box-shadow: var(--shadow-s);
+}
+
+.anchor-flow-toolbar-btn.is-active {
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.anchor-flow-toolbar-width {
+	width: 4.5em;
+}
