@@ -23,10 +23,15 @@ note" command, are candidates for later, not this release.
 
 ## Status
 
-Early development, no working build yet. The core float-and-wrap mechanism
-already works, confirmed in both Reading mode and Live Preview. The open
-question now: how the plugin detects that an image is selected, so it knows
-when to show the toolbar.
+Early development, but the core loop works end to end: click an image,
+pick Left, Right, or Full-width, and it converts and renders correctly in
+both Reading mode and Live Preview. Clicking an already-floated image lets
+you change its position or width the same way. The toolbar is positioned
+to stay clear of Obsidian's own native image controls rather than hide
+them, by design, not as a workaround.
+
+Not built yet: the settings tab (default width, default position, the
+auto-convert-on-paste toggle), and the submission-readiness pass.
 
 ## Support
 
