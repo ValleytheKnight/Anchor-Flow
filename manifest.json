@@ -1,0 +1,11 @@
+{
+	"id": "anchor-flow",
+	"name": "Anchor Flow",
+	"version": "0.1.0",
+	"minAppVersion": "1.7.0",
+	"description": "Float an image left, right, or full-width with a selection toolbar, and let the surrounding text wrap around it automatically in both Reading mode and Live Preview.",
+	"author": "ValleytheKnight",
+	"authorUrl": "https://github.com/ValleytheKnight",
+	"fundingUrl": "https://www.buymeacoffee.com/valleytheknight",
+	"isDesktopOnly": false
+}
